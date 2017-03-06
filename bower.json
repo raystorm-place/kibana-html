@@ -24,5 +24,16 @@
   "dependencies": {
     "ace-builds": "1.2.3",
     "angular-ui-ace": "0.2.3"
+  },
+  "install": {
+    "path": "public/deps",
+    "sources": {
+      "angular-ui-ace": "public/bower_components/angular-ui-ace/ui-ace.min.js",
+      "ace-builds": [
+        "public/bower_components/ace-builds/src-min-noconflict/theme-monokai.js",
+        "public/bower_components/ace-builds/src-min-noconflict/mode-html.js",
+        "public/bower_components/ace-builds/src-min-noconflict/ace.js"
+      ]
+    }
   }
 }

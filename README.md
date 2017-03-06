@@ -8,12 +8,12 @@ HTML Plugin Widget for Kibana. This Plugin was originally adapted from the Markd
 # Install
 
 ```bash
-bin/kibana plugin -i kibana-html-plugin -u https://github.com/raystorm-place/kibana-html-plugin/releases/download/v0.0.3/kibana-html-plugin-v0.0.3.tar.gz
+bin/kibana-plugin install <PATH_OR_URL_TO_YOUR_ZIP_FILE>
 ```
 
 # Compatibility
 Plugins are officialy not supported, because of fast code changes even in minor Versions.
 
-The plugin is compatible with following Versions (other not tested yet):
-* kibana (=4.x)
+The plugin is compatible with following Versions :
+* kibana (=5.2)
 
