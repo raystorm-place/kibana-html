@@ -28,8 +28,10 @@ bin/kibana
 
 # Release
 
+To make a release package, just run the `release.sh` script :
+
 ```bash
-tar -czf kibana-html-plugin-v0.0.x.tar.gz --exclude .git --exclude .idea --exclude *.iml --exclude src-noconflict --exclude src --exclude src-min --exclude demo kibana-html-plugin
+./release.sh
 ```
 
 ## Debug scope
