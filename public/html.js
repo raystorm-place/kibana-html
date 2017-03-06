@@ -8,7 +8,7 @@ define(function (require) {
   require('ui/registry/vis_types').register(HtmlVisProvider);
 
   function HtmlVisProvider(Private) {
-    var TemplateVisType = Private(require('ui/template_vis_type/TemplateVisType'));
+    var TemplateVisType = Private(require('ui/template_vis_type/template_vis_type'));
 
     return new TemplateVisType({
       name: 'html',
