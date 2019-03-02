@@ -14,7 +14,6 @@
 
 import 'plugins/kibana-html-plugin/html.less';
 
-import {CATEGORY} from 'ui/vis/vis_category';
 import {VisFactoryProvider} from 'ui/vis/vis_factory';
 import {VisTypesRegistryProvider} from 'ui/registry/vis_types';
 
@@ -33,7 +32,6 @@ function HtmlVisProvider(Private) {
     icon: 'editorCodeBlock',
     stage: 'experimental',
     description: 'Useful for displaying html in dashboards.',
-    category: CATEGORY.OTHER,
 
     visConfig: {
       component: HtmlVisWrapper,
